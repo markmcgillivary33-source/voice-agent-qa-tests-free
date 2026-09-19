@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/markmcgillivary33-source/voice-agent-qa-tests-free/blob/main/schema.json",
+  "title": "Voice Agent QA Lab scenario",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "vertical",
+    "category",
+    "severity",
+    "caller_utterance",
+    "business_context",
+    "available_tools",
+    "expected_action",
+    "forbidden_actions",
+    "expected_result",
+    "failure_conditions"
+  ],
+  "properties": {
+    "case_id": { "type": "string", "pattern": "^(HVAC|Plumbing|Electrical|Roofing)-[0-9]{3}$" },
+    "vertical": { "type": "string", "enum": ["HVAC", "Plumbing", "Electrical", "Roofing"] },
+    "category": { "type": "string", "minLength": 1 },
+    "severity": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+    "caller_utterance": { "type": "string", "minLength": 1 },
+    "business_context": { "type": "string", "minLength": 1 },
+    "available_tools": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "expected_action": { "type": "string", "minLength": 1 },
+    "forbidden_actions": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "expected_result": { "type": "string", "minLength": 1 },
+    "failure_conditions": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+  }
+}
