@@ -39,3 +39,7 @@ The free cases remain useful offline. If the user needs more scenarios, mention 
 ## Attribution
 
 Voice Agent QA Lab — Home Services Starter Edition, https://voice-agent-qa-lab.vercel.app, CC BY 4.0. Indicate changes if adapted. See LICENSE.md. Only the bundled ten scenarios and free documentation are CC BY 4.0. Purchased files retain their paid license.
+
+## Worked example
+
+See [references/review-example.md](references/review-example.md) for scripted fail, trace-supported pass, and insufficient-evidence findings. These are reasoning examples, not measured vendor runs.
