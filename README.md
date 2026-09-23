@@ -58,3 +58,13 @@ No evaluation service or subscription is required. Third-party testing platforms
 CC BY 4.0 for the ten cases and free documentation; commercial reuse and adaptations allowed with attribution. See [LICENSE.md](LICENSE.md). Suggested attribution: Voice Agent QA Lab — Home Services Starter Edition, https://voice-agent-qa-lab.vercel.app, CC BY 4.0. Indicate changes if adapted.
 
 Version 1.1.0 · 2026-09-23
+
+## See the workflow
+
+[Watch the 41-second screen demonstration](assets/calendar-timeout-demo.mp4). Responses are scripted illustrations; no vendor was tested.
+
+![Calendar timeout scenario](assets/01-calendar-timeout.png)
+
+![Scripted evidence review](assets/02-review-workflow.png)
+
+![Full-pack contents and price](assets/03-full-pack-contents.png)
